@@ -1,0 +1,17 @@
+.login-container p{
+    font-size: 22px;
+    margin-left: 30%;
+    font-weight: 600;
+  
+
+}
+/* .login-container{
+    box-shadow: 0 0 5px rgba(0,0,0,.08), 2px 2px 5px rgba(0,0,0,.1);
+} */
+
+.authswitch{
+    margin-left: 25%;
+    margin-top: 15px;
+    text-decoration: underline;
+
+}

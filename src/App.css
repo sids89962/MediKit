@@ -1,38 +1,202 @@
-.App {
+/* .App {
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.App-Column {
+  flex-direction: column;
+} */
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.anchor{
+  color: rgb(56, 51, 51) ;
+}
+.anchor:hover{
+
+text-decoration: none;
+}
+
+nav{
+  box-shadow: 0 0 5px rgba(0,0,0,.08), 2px 2px 5px rgba(0,0,0,.1); 
+}
+
+nav img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+.nav-item{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.login-container {
+  width: 400px;
+}
+
+.form {
+  display: flex;
+  border: 1px solid #ddd;
+  flex-direction: column;
+  padding: 20px;
+}
+
+p {
+  margin-top: 0;
+}
+
+input {
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.submit {
+  padding: 10px;
+}
+
+
+/* Home SCreen.js Product CArd */
+
+.main {
+  flex-direction: column;
+ 
+}
+
+.navbar form input {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: rgb(250, 250, 250);
+  border: none;
+  font-size: 18px;
+  
+}
+nav{
+  margin-bottom: 20px;
+}
+.productList {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.card {
+  /* border-radius: 1rem; */
+  margin-bottom: 15px;
+  padding: 10px 10px 0 10px;
+}
+.card input{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+}
+.card img {
+  max-height: 200px;
+  object-fit: cover;
+  /* border-radius: 2rem; */
+  /* border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem; */
+}
+
+.card button {
+  width: 100%;
+  background-color: rgb(56, 51, 51);
+  font-weight: 600;
+  color: white;
+  border: none;
+  
+}
+.card .admin-btn{
+  width: 40%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.card-text{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filter-sidebar{
+  padding:20px;  
+  background-color: rgb(250, 246, 246);
+  /* box-shadow: 0 0 5px rgba(0,0,0,.08), 2px 2px 5px rgba(0,0,0,.1); */
+ }
+.filter-sidebar h5{
+  margin-bottom: 30px;
+}
+
+.form-select{
+  border:solid 1px rgb(219, 213, 213);
+  padding:5px;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+  float:right;
+  box-shadow: 0 0 5px rgba(0,0,0,.08), 2px 2px 5px rgba(0,0,0,.1);
+}
+ option{
+  padding: 10px;
+}
+.form-check input{
+  margin-right: 7px;
+}
+
+/* Product.js */
+
+.product-details {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-details img {
+  width: 90%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-details-right {
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.category {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(47, 206, 255)
 }
 
-.App-link {
-  color: #61dafb;
+.product-details-right .rating {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price {
+  margin-bottom: 10px;
 }
+
+.price span {
+  font-size: 25px;
+}
+
+.addToCart {
+  display: 'flex'
+}
+
+.addToCart button,.checkout {
+  width: 100%;
+  background-color: rgb(56, 51, 51);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+
+/* Create RPdocu */

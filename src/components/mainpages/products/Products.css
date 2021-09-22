@@ -1,0 +1,33 @@
+div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom:11px;
+    
+}
+
+.scrollmenu::-webkit-scrollbar {
+    display: none;
+  }
+
+div.scrollmenu button{
+    display: inline-block;
+    color: rgb(131, 130, 130);
+    text-align: center;
+    padding:8px 14px;
+    text-decoration: none;
+  	background-color: #ffffff;
+  	border:solid 1px rgb(190, 190, 190);
+    border-radius: 15px;
+    box-shadow: 0px  2px 2px 0px rgba(32, 31, 31, 0.09);
+    margin: 15px;
+    font-weight: 500;
+}
+
+div.scrollmenu .active
+{
+	background-color:rgb(115, 123, 141);
+  color: white;
+  transform: scale(1.1);
+
+}
