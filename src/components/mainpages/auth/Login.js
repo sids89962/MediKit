@@ -27,7 +27,7 @@ export default function Login() {
    
     return (
         <div>
-            {user.email}
+            
               <div className="login-container container">
                    
                         <form className="form" onSubmit={loginSubmit}>

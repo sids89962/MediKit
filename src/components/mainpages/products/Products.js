@@ -11,12 +11,11 @@ import ProductItem from '../utils/ProductItem'
 export default function Products() {
 
     const state = useContext(GlobalState)
-    const [products] = state.productAPI.products
+    const [products,setProducts] = state.productAPI.products
   
     const [token] = state.token
     const [loading, setLoading] = useState(false)
-    const [sort, setSort] = state.productAPI.sort
-    
+    const [sort, setSort] = state.productAPI.sort    
     const [category] = state.productAPI.category
 
     
@@ -34,6 +33,10 @@ export default function Products() {
         }
     }
 
+    const handleSort = (e) =>{
+        setSort(e.target.value)
+    }
+ 
     return (
 
 
@@ -44,9 +47,9 @@ export default function Products() {
             </div>
             <div className="col-md-8 d-flex main">
                     <Filter />	
-                <form>
+                
                 <span style={{fontSize:'14px',fontWeight:'500'}}> >> All >> {category}</span>
-                    <select className="form-select" onChange={(e) => setSort(e.target.value)} value={sort}>
+                   <form > <select className="form-select" onChange={handleSort} value={sort}>
                         <option style={{ display: 'none' }}>Sort by Price</option>
                         <option value="lowest">Low to High</option>
                         <option value="highest">High to Low</option>

@@ -6,7 +6,7 @@ export default function Filter({getProducts}) {
     const state = useContext(GlobalState)
     const [products, setProducts] = state.productAPI.products
     const [category, setCategory] = state.productAPI.category
-    // const [sort, setSort] = state.productAPI.sort
+   
     // const [search, setSearch] = state.productAPI.search
 
 
@@ -23,7 +23,7 @@ export default function Filter({getProducts}) {
             <div className="row">
                 
                 <div class="scrollmenu" id="scrollmenu">
-                    <button href="active" className="active">All</button>
+                    <button href="active" className="active" value='' onClick={handleCategory}>All</button>
                     {
                         uniqueList.map(x => (
                              <button onClick={handleCategory} value={x}>{x}</button>
