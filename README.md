@@ -1,5 +1,5 @@
 <h2>MediKit-Frontend</h2>
-<p> BHotel is a website which allows user to search hotels from a city and then filter on various parameters. User can book a hotel and booking is pending until approved by the admin. BHotel has a separate panel for the admin to review bookings. The website isn't made responsive because of major focus on MERN stack. </p>
+<p> MediKit is a Full Stack (MERN) website with features to sort on basis of price and category. It also provides a admin for creating a product, deleting, editing and approving the requests. The website isn't made responsive because of major focus on MERN stack. </p>
 <hr>
 
 <h3>Links </h3>
