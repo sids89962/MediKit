@@ -4,7 +4,7 @@
 
 <h3>Links </h3>
 <h4>Back-End Repo:-  <a href="https://github.com/sids89962/Medikit-Backend" >Click Here</a></h4> 
-<h4>Website:- <a href=https://jan-aushidi-yogna.herokuapp.com">Jan-Ausidhi-Yojna</a></h4>
+<h4>Website:- <a href="https://jan-aushidi-yogna.herokuapp.com">Jan-Ausidhi-Yojna</a></h4>
 <h4>LinkedIn:-  <a href="https://www.linkedin.com/in/satyamsharma1997/">Click Here</a></h4>
 <hr>
 
